@@ -1,0 +1,25 @@
+
+* {
+    text-decoration: none;
+    font-family:Ubuntu;
+}
+body{
+    background-color: #f3f3f3;
+}
+header{
+    width: 100%;
+    height: 80px;
+}
+
+header nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 20px ;
+}
+
+.container {
+    padding: 20px;
+}
+footer .container .row .col ul li {
+    list-style: none;
+}
