@@ -1,7 +1,10 @@
 
+%font_lato {
+    font-family: 'Lato', sans-serif;
+}
 * {
+    @extend  %font_lato;
     text-decoration: none;
-    font-family:Ubuntu;
 }
 body{
     background-color: #f3f3f3;
@@ -31,10 +34,46 @@ a:hover{
     text-decoration: none;
 }
 
+.first-letter {
+    font-size: 24px;
+  }
+
 .travel-picture {
     width:500px;
     height: 400px;
 }
 .container {
     margin:16px;
+}
+
+$bg-color-year-place: #fbce92;
+$bg-color-degree: #eca643;
+
+
+table {
+    margin-top:16px;
+    text-align: center;
+    color:#41929a;
+    
+    tr {
+        margin-bottom: 8px;
+        width: fit-content;
+    }
+    th {
+        color:#fb4009;
+        background-color: #fbce92;
+    }
+    td, th{
+        padding: 10px;
+    }
+    .year-institution {
+        background-color: $bg-color-year-place;
+    }
+    .degree {
+        background-color: $bg-color-degree;
+    }
+}
+
+.card {
+    margin: 10px;
 }

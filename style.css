@@ -1,6 +1,9 @@
 * {
+  font-family: "Lato", sans-serif;
+}
+
+* {
   text-decoration: none;
-  font-family: Ubuntu;
 }
 
 body {
@@ -26,6 +29,10 @@ a:hover {
   text-decoration: none;
 }
 
+.first-letter {
+  font-size: 24px;
+}
+
 .travel-picture {
   width: 500px;
   height: 400px;
@@ -33,6 +40,33 @@ a:hover {
 
 .container {
   margin: 16px;
+}
+
+table {
+  margin-top: 16px;
+  text-align: center;
+  color: #41929a;
+}
+table tr {
+  margin-bottom: 8px;
+  width: fit-content;
+}
+table th {
+  color: #fb4009;
+  background-color: #fbce92;
+}
+table td, table th {
+  padding: 10px;
+}
+table .year-institution {
+  background-color: #fbce92;
+}
+table .degree {
+  background-color: #eca643;
+}
+
+.card {
+  margin: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
