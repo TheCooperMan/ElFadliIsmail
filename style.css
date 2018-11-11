@@ -10,6 +10,12 @@ body {
   background-color: #f3f3f3;
 }
 
+@media (max-width: 500px) {
+  .nav {
+    margin: auto;
+    width: 100%;
+  }
+}
 header {
   background-color: #fff;
   width: 100%;
@@ -42,26 +48,26 @@ a:hover {
   margin: 16px;
 }
 
-table {
+#table_study {
   margin-top: 16px;
   text-align: center;
   color: #41929a;
 }
-table tr {
+#table_study tr {
   margin-bottom: 8px;
   width: fit-content;
 }
-table th {
+#table_study th {
   color: #fb4009;
   background-color: #fbce92;
 }
-table td, table th {
+#table_study td, #table_study th {
   padding: 10px;
 }
-table .year-institution {
+#table_study .year-institution {
   background-color: #fbce92;
 }
-table .degree {
+#table_study .degree {
   background-color: #eca643;
 }
 

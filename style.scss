@@ -10,7 +10,12 @@ body{
     background-color: #f3f3f3;
 }
 
-@media (min-width:600px){
+@media (max-width:500px){
+    .nav {
+        margin: auto;
+        width: 100%;
+
+    }
 }
 
 header{
@@ -50,7 +55,7 @@ $bg-color-year-place: #fbce92;
 $bg-color-degree: #eca643;
 
 
-table {
+#table_study {
     margin-top:16px;
     text-align: center;
     color:#41929a;
