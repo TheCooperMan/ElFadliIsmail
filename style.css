@@ -1,25 +1,38 @@
-
 * {
-    text-decoration: none;
-    font-family:Ubuntu;
-}
-body{
-    background-color: #f3f3f3;
-}
-header{
-    width: 100%;
-    height: 80px;
+  text-decoration: none;
+  font-family: Ubuntu;
 }
 
-header nav ul li {
-    display: inline-block;
-    list-style: none;
-    padding: 20px ;
+body {
+  background-color: #f3f3f3;
+}
+
+header {
+  background-color: #fff;
+  width: 100%;
+}
+header .header-name {
+  font-weight: 900;
+}
+header a {
+  margin: 2px;
+}
+
+footer .container .row .col ul li {
+  list-style: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.travel-picture {
+  width: 500px;
+  height: 400px;
 }
 
 .container {
-    padding: 20px;
+  margin: 16px;
 }
-footer .container .row .col ul li {
-    list-style: none;
-}
+
+/*# sourceMappingURL=style.css.map */

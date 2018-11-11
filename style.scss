@@ -1,0 +1,40 @@
+
+* {
+    text-decoration: none;
+    font-family:Ubuntu;
+}
+body{
+    background-color: #f3f3f3;
+}
+
+@media (min-width:600px){
+}
+
+header{
+    background-color: #fff;
+    width: 100%;
+
+    .header-name {
+        font-weight: 900;
+    }
+    a {
+        margin: 2px;
+    }
+}
+
+
+footer .container .row .col ul li {
+    list-style: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.travel-picture {
+    width:500px;
+    height: 400px;
+}
+.container {
+    margin:16px;
+}
