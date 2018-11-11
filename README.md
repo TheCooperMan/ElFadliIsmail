@@ -9,7 +9,7 @@ _The website in progress .._
 
 ## Languages used ?
 
-for the momment I'm using HTML and CSS.
+for the moment I'm using HTML and CSS.
 
 ## IDE used ?
 Visual Studio Code
