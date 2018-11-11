@@ -20,5 +20,5 @@ the website contain 4 pages:
 
 * **index.html** : represent the About me.
 * **travel.html** : where I represent my travels, I used  [Bootstrap’s cards](https://getbootstrap.com/docs/4.1/components/card/).
-* **study.html** : in this page I made a table, with three columns and two rows.
+* **study.html** : in this page I created a table, with three columns and two rows.
 * **portfolio.html** : where I represent the projects that I worked on. the same principle of the page travel.html is used in this page (Bootstrap's cards).
