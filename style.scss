@@ -30,11 +30,13 @@ header{
     }
 }
 
+.container{
+  padding-top: 30px;
+}
+
 .mepic{
-    
-    margin: 0 auto;
-    width: 60%;
-    height: 60%;
+
+    width: 400px;
     -webkit-border-radius: 50% ;
     -moz-border-radius: 50%;
     border-radius: 7%;
@@ -44,6 +46,19 @@ header{
     margin: auto;
     text-align: center;
     width: fit-content;
+
+  .location-icon{
+    font-size: 22px;
+  }
+  .icons{
+    font-size: 30px;
+
+    .location{
+      font-size: 16px;
+      vertical-align: middle;
+    }
+  }
+
 }
 .footer {
     margin-top: 12px;
