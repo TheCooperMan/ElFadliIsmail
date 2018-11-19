@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block head %}
+        <title>{% block title %}{% endblock %} - ElFadli</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link href="https://unpkg.com/ionicons@4.4.6/dist/css/ionicons.min.css" rel="stylesheet">
+        {% endblock %}
+    </head>
+    <body>
+        <header> 
+            <nav class="nav nav-pills navbar-light bg-light">
+                <a class="nav-link header-name" href="{{ url_for('index')}}">ELFADLI</a>
+                <a class="nav-link" href="{{ url_for('travel') }}">Travel</a>
+                <a class="nav-link" href="{{ url_for('study') }}">Study</a>
+                <a class="nav-link" href="{{ url_for('portfolio')}}">Portfolio</a>
+            </nav>
+        </header>
+
+        {% block body %}
+        {% endblock %}
+
+        <footer>
+            {% block footer %}
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 icons">
+                        <h5>ElFadli Ismail</h5>
+                        <i class="icon location-icon ion-md-pin"></i>
+                        <span class="location">Marrakech, Morocco</span>
+                    </div>
+                    <div class="col-md-4 icons">
+                        <a href="https://www.facebook.com/isma3il.fadli" target="_blank"><i class="icon ion-logo-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/ismailfadli/" target="_blank"><i class="icon ion-logo-linkedin"></i></a>
+                        <a href="https://www.instagram.com/ismailfadli01/" target="_blank"><i class="icon ion-logo-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            {% endblock %}
+        </footer>
+    </body>
+</html>

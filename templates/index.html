@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+{% block title %}Home{% endblock %}
+{% block body %}
+<main>
+    <div class="container">
+        <div class="row">
+                
+            <div class="col-md-8 col-sm-push">
+                <p>
+                    <span class="first-letter">M</span>y Full Name is ElFadli Ismail, - Trying to spell my name, well, just say Smile and add at first 'E'!
+                    Easy! Ha!.
+                </p> 
+                <p>
+                    <span class="first-letter">F</span>reshly Graduated from Faculty of Medicine and Pharmacy of Rabat (Morocco) in Bioinformatics, I had the pleasure to be
+                    part of the first promotion of the Master's Degree.
+                </p>
+                <p>
+                    <span class="first-letter">M</span>y love for traveling took me to Nancy, a lovely small city in the north-east of France, where I spent six months enjoying 
+                    my internship in Drug Design in Loria Lab. As well as, other <a href="{{ url_for('travel') }}">destinations</a>.
+                </p>
+                <p>
+                    <span class="first-letter">P</span>assionate about Programming, Data Analysis, Traveling and Volunteering.
+                </p>
+                
+            </div>
+            <div class="col-md-4 col-sm-pull pictureclass ">
+                <img src="{{ url_for('static', filename = 'images/me.jpg') }}" alt="ElFadli picture" class="mepic">
+            </div>
+            </div>
+    </div>
+</main>
+
+{% endblock %}

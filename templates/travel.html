@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+{% block title %}Travel{% endblock %}
+{% block body %}
+
+        <main>
+            <div class="card-columns">
+                <div class="card">
+                  <img class="card-img-top" src="{{ url_for('static', filename='images/nancy.jpg') }}" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">La Meurthe</h5>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Nancy, France</small>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="{{ url_for('static', filename='images/nancy_place_stan.jpg') }}" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Place Stanislas @ Festival de lumière</h5>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Nancy, France</small>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="{{ url_for('static', filename='images/paris_arc_de_triomphe.jpg')}}" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Arc de Triomphe</h5>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Paris, France</small>
+                  </div>
+                </div>
+              </div>
+        </main>
+
+{% endblock %}
