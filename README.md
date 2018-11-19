@@ -9,10 +9,10 @@ _The website in progress .._
 
 ## Languages used ?
 
-for the moment I'm using HTML and CSS.
+for the moment I'm using HTML, CSS and Python (using Flask, a  web framework based on Python).
 
 ## IDE used ?
-Visual Studio Code
+Visual Studio Code.
 
 ## what's inside my website ?
 
