@@ -1,0 +1,109 @@
+* {
+  font-family: "Lato", sans-serif;
+}
+
+* {
+  text-decoration: none;
+}
+
+body {
+  background-color: #f3f3f3;
+}
+
+@media (max-width: 500px) {
+  .nav {
+    margin: auto;
+    width: 100%;
+  }
+}
+header {
+  background-color: #fff;
+  width: 100%;
+}
+header .header-name {
+  font-weight: 900;
+}
+header a {
+  margin: 2px;
+}
+
+.container {
+  padding-top: 30px;
+}
+
+.mepic {
+  max-width: 90%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 7%;
+}
+
+.pictureclass {
+  margin: auto;
+  text-align: center;
+  width: fit-content;
+}
+.pictureclass .location-icon {
+  font-size: 22px;
+}
+.pictureclass .icons {
+  font-size: 30px;
+}
+.pictureclass .icons .location {
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.footer {
+  margin-top: 12px;
+}
+
+footer .container .row .col ul li {
+  list-style: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.first-letter {
+  font-size: 24px;
+}
+
+.travel-picture {
+  width: 500px;
+  height: 400px;
+}
+
+#table_study {
+  margin-top: 16px;
+  text-align: center;
+  color: #41929a;
+}
+#table_study tr {
+  margin-bottom: 8px;
+  width: fit-content;
+}
+#table_study th {
+  color: #fb4009;
+  background-color: #fbce92;
+}
+#table_study td, #table_study th {
+  padding: 10px;
+}
+#table_study .year-institution {
+  background-color: #fbce92;
+}
+#table_study .degree {
+  background-color: #eca643;
+}
+
+.card {
+  margin: 10px;
+}
+
+.icon {
+  font-size: 32px;
+}
+
+/*# sourceMappingURL=style.css.map */

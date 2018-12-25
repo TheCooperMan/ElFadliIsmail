@@ -1,0 +1,118 @@
+
+%font_lato {
+    font-family: 'Lato', sans-serif;
+}
+* {
+    @extend  %font_lato;
+    text-decoration: none;
+}
+body{
+    background-color: #f3f3f3;
+}
+
+@media (max-width:500px){
+    .nav {
+        margin: auto;
+        width: 100%;
+
+    }
+}
+
+header{
+    background-color: #fff;
+    width: 100%;
+
+    .header-name {
+        font-weight: 900;
+    }
+    a {
+        margin: 2px;
+    }
+}
+
+.container{
+  padding-top: 30px;
+}
+
+.mepic{
+
+    width: 400px;
+    -webkit-border-radius: 50% ;
+    -moz-border-radius: 50%;
+    border-radius: 7%;
+}
+
+.pictureclass{
+    margin: auto;
+    text-align: center;
+    width: fit-content;
+
+  .location-icon{
+    font-size: 22px;
+  }
+  .icons{
+    font-size: 30px;
+
+    .location{
+      font-size: 16px;
+      vertical-align: middle;
+    }
+  }
+
+}
+.footer {
+    margin-top: 12px;
+}
+footer .container .row .col ul li {
+    list-style: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.first-letter {
+    font-size: 24px;
+  }
+
+.travel-picture {
+    width:500px;
+    height: 400px;
+}
+
+
+$bg-color-year-place: #fbce92;
+$bg-color-degree: #eca643;
+
+
+#table_study {
+    margin-top:16px;
+    text-align: center;
+    color:#41929a;
+    
+    tr {
+        margin-bottom: 8px;
+        width: fit-content;
+    }
+    th {
+        color:#fb4009;
+        background-color: #fbce92;
+    }
+    td, th{
+        padding: 10px;
+    }
+    .year-institution {
+        background-color: $bg-color-year-place;
+    }
+    .degree {
+        background-color: $bg-color-degree;
+    }
+}
+
+.card {
+    margin: 10px;
+}
+
+.icon {
+    font-size: 32px;
+}
